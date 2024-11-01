@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.insure_main_box > img{
+    width: 111.22px;
+    height: 18px;
+    color: #2C2830;
+}
+
+.insure_main_box > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+ul > li{
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Karla", sans-serif;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+}
+
+ul > button{
+    width: 146px;
+    height: 40px;
+    background-color: #2C2830;
+    border: 1.5px;
+    color: white;
+}
+
+.insure_main_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.humanizing_box{
+    background-color:#2D2641 ;
+    height: 600px;
+}
+
+.line_box{
+    height: 1px;
+
+}
