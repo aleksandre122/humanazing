@@ -1,57 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main_container{
-    width: 100%;
-    height: 100vh;
+.main_container {
+  width: 100%;
+  height: 100vh;
 }
 
-.insure_main_box > img{
-    width: 111.22px;
-    height: 18px;
-    color: #2C2830;
+.insure_main_box > img {
+  height: 18px;
+  color: #2c2830;
 }
 
-.insure_main_box > ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    gap: 20px;
+.insure_main_box > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
 }
 
-ul > li{
-    color: #837D88;
-    font-size: 13px;
-    font-weight: 700;
-    font-family: "Karla", sans-serif;
-    line-height: 15.2px;
-    letter-spacing: 1.5px;
+ul > li {
+  color: #837d88;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Karla", sans-serif;
+  line-height: 15.2px;
 }
 
-ul > button{
-    width: 146px;
-    height: 40px;
-    background-color: #2C2830;
-    border: 1.5px;
-    color: white;
+ul > li:hover {
+  color: black;
+  cursor: pointer;
 }
 
-.insure_main_box{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+ul > button {
+  width: 146px;
+  height: 40px;
+  border: 1.5px solid #2c2830;
+  color: #2c2830;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.humanizing_box{
-    background-color:#2D2641 ;
-    height: 600px;
+ul > button:hover {
+  background-color: #2c2830;
+  color: white;
 }
 
-.line_box{
-    height: 1px;
+.insure_main_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 165px;
+  padding-right: 165px;
+}
 
+.humanizing_box {
+  display: flex;
+  align-items: center;
+  background-color: #2d2641;
+  justify-content: space-between;
+  padding-left: 165px;
+  padding-right: 165px;
+  height: 600px;
+}
+
+.line {
+  width: 150px;
+}
+
+.left_side_box {
+  width: 540px;
+}
+
+.left_side_box > h1 {
+  font-size: 72px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.left_side_box > p {
+  width: 540px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.left_side_box > button {
+  width: 146px;
+  height: 40px;
+  border: 1.5px solid #fff;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.left_side_box > button:hover {
+  background-color: #fff;
+  color: #2d2641;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 25%;
 }
