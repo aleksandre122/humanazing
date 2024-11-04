@@ -8,12 +8,15 @@
   height: 100vh;
 }
 
+.insure_main_box {
+  height: 80px;
+}
 .insure_main_box > img {
   height: 18px;
   color: #2c2830;
 }
 
-.insure_main_box > ul {
+.insure_main_box > .navigation_list {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -22,7 +25,7 @@
   height: 80px;
 }
 
-ul > li {
+.navigation_list > li {
   color: #837d88;
   font-size: 13px;
   font-weight: 700;
@@ -30,12 +33,12 @@ ul > li {
   line-height: 15.2px;
 }
 
-ul > li:hover {
+.navigation_list > li:hover {
   color: black;
   cursor: pointer;
 }
 
-ul > button {
+.navigation_list > button {
   width: 146px;
   height: 40px;
   border: 1.5px solid #2c2830;
@@ -44,7 +47,7 @@ ul > button {
   cursor: pointer;
 }
 
-ul > button:hover {
+.navigation_list > button:hover {
   background-color: #2c2830;
   color: white;
 }
@@ -111,201 +114,257 @@ ul > button:hover {
   top: 25%;
 }
 
-.different_box{
-    color: #2C2830;
-    font-weight: 400px;
-    font-size: 72px;
-    line-height: 64px;
-    letter-spacing: -1px;
-    margin-left: 165px;
-    margin-top: 59px;
+.different_box {
+  color: #2c2830;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-left: 165px;
+  margin-top: 59px;
 }
 
-.hr2_box{
-    margin-top: 239px;
+.hr2_box {
+  margin-top: 239px;
 }
 
-.different_line{
-    width: 150px;
-    background-color: #C396C6;
-    height: 1px;
-    margin-left: 165px;
+.different_line {
+  width: 150px;
+  background-color: #c396c6;
+  height: 1px;
+  margin-left: 165px;
 }
 
-.first_emoji{
-    width: 86px;
-    height: 86px;
-    margin-top: 90px;
-    margin-left: 165px;
+.first_emoji {
+  width: 86px;
+  height: 86px;
+  margin-top: 90px;
+  margin-left: 165px;
 }
 
-.emoji_mmain_box{
+.emoji_mmain_box {
+  display: flex;
+  width: 1110px;
+}
+
+.emoji_energi_box > h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38.39px;
+  letter-spacing: -0.39px;
+  margin-left: 165px;
+  margin-top: 20px;
+  color: #2c2830;
+}
+
+.emoji_energi_box > p {
+  color: #837d88;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 165px;
+  margin-top: 20px;
+  width: 350px;
+}
+
+.dollar_emoji_box > img {
+  width: 86px;
+  height: 86px;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+.dollar_emoji_box > h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38.39px;
+  letter-spacing: -0.39px;
+  color: #2c2830;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.dollar_emoji_box > p {
+  color: #837d88;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 350px;
+}
+
+.people_emoji_box > img {
+  width: 86px;
+  height: 86px;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+.people_emoji_box > h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38.39px;
+  letter-spacing: -0.39px;
+  color: #2c2830;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.people_emoji_box > p {
+  color: #837d88;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 350px;
+}
+
+.findout_main_box {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.findout_child_box {
+  height: 250px;
+  width: 1110px;
+  background-color: #2d2641;
+}
+
+.findout_child_box > h1 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.78px;
+  color: white;
+  margin-left: 81px;
+  margin-top: 69px;
+}
+
+.findout_child_box > button {
+  width: 160px;
+  height: 40px;
+  background-color: #2d2641;
+  color: white;
+  border: solid white 1.5px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  margin-left: 700px;
+}
+
+.findout_child_box > button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.insure_line_contairen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #fafafa;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.list_main_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.company_box {
+  list-style: none;
+}
+
+.company_box > li {
+  line-height: 30px;
+}
+
+.heading {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  color: #837d88;
+  margin-bottom: 20px;
+}
+#first_list {
+  color: #2d2641;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+}
+
+.menu_icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.image_logo {
+  width: 480px;
+  height: 550px;
+  margin-left: 20px;
+  margin-top: 260px;
+}
+
+@media (width < 500px) {
+  .insure_main_box > .navigation_list {
+    display: none;
+  }
+
+  .menu_icon {
+    display: block;
+  }
+  .insure_main_box {
     display: flex;
-    width: 1110px ;
-}
-
-.emoji_energi_box > h1{
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 38.39px;
-    letter-spacing: -0.39px;
-    margin-left: 165px;
-    margin-top: 20px;
-    color: #2C2830;
-}
-
-.emoji_energi_box > p{
-    color: #837D88;
-    font-weight: 400;
-    font-family: "Karla", sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    margin-left: 165px;
-    margin-top: 20px;
-    width: 350px;
-}
-
-.dollar_emoji_box > img{
-    width: 86px;
-    height: 86px;
-    margin-top: 90px;
-    margin-left: 15px;
-}
-
-.dollar_emoji_box > h1{
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 38.39px;
-    letter-spacing: -0.39px;
-    color: #2C2830;
-    margin-left:15px ;
-    margin-top: 20px;
-}
-
-.dollar_emoji_box > p{
-    color: #837D88;
-    font-weight: 400;
-    font-family: "Karla", sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 20px;
-    margin-left: 15px;
-    width: 350px;
-}
-
-.people_emoji_box > img{
-    width: 86px;
-    height: 86px;
-    margin-top: 90px;
-    margin-left: 15px;
-}
-
-.people_emoji_box > h1{
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 38.39px;
-    letter-spacing: -0.39px;
-    color: #2C2830;
-    margin-left:15px ;
-    margin-top: 20px;
-}
-
-.people_emoji_box > p{
-    color: #837D88;
-    font-weight: 400;
-    font-family: "Karla", sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 20px;
-    margin-left: 15px;
-    width: 350px;
-}
-
-.findout_main_box{
-display: flex;
-margin-top: 120px;
-margin-left: 165px;
-margin-right: 165px;
-}
-
-.findout_child_box{
-    height: 250px;
-    width: 1110px;
-    background-color: #2D2641;
-}
-
-.findout_child_box > h1{
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.78px;
-    color: white;
-    margin-left: 81px;
-    margin-top: 69px;
-}
-
-.findout_child_box  > button{
-    width: 160px;
-    height: 40px;
-    background-color: #2D2641;
-    color: white;
-    border: solid white 1.5px;
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 15.2px;
-    letter-spacing: 1.5px;
-    margin-left: 700px;
-}
-
-.findout_child_box >button:hover{
-    background-color:  white;
-    color: black;
-    cursor: pointer;
-}
-
-.insure_line_contairen{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 165px;
-    margin-right: 165px;
-    margin-top: 180px;
-}
+    justify-content: space-between;
+  }
 
-.list_main_box{
-    display: flex;
-}
+  .image_logo {
+    width: 375px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    order: 2;
+  }
 
-.company_list_container{
-    margin-left: 165px;
-    margin-top: 80px;
-}
+  .humanizing_box {
+    flex-direction: column;
+  }
 
-.company_box{
-    list-style: none;
-}
+  .left_side_box {
+    order: 1;
+  }
 
-.company_box> li {
-    line-height: 30px;
+  .emoji_mmain_box {
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+  }
+  .findout_child_box {
+    width: 327px;
+  }
 }
-
-.heading{
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 15.2px;
-    letter-spacing: 1.5px;
-    color: #837D88;
-    margin-bottom: 20px;
-}
-#first_list{
-    color: #2D2641;
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 15.2px;
-    letter-spacing: 1.5px;
-}
-
-
