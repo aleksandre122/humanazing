@@ -263,3 +263,49 @@ margin-right: 165px;
     color: black;
     cursor: pointer;
 }
+
+.insure_line_contairen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 180px;
+}
+
+.list_main_box{
+    display: flex;
+}
+
+.company_list_container{
+    margin-left: 165px;
+    margin-top: 80px;
+}
+
+.company_box{
+    list-style: none;
+}
+
+.company_box> li {
+    line-height: 30px;
+}
+
+.heading{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    margin-bottom: 20px;
+}
+#first_list{
+    color: #2D2641;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+}
+
+
